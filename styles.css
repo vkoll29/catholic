@@ -1,5 +1,7 @@
 body {
-	background: #FFF url('images/body-single.png') repeat-x scroll top left;
+/*	background: #FFF url('images/body-single.png') repeat-x scroll top left;
+*/	
+	background-color: green;
 	margin:0;
 	padding:0;
 	font-family: Verdana, Geneva, sans-serif;
@@ -106,6 +108,20 @@ fieldset p label {
 	float: left;
 	width: 150px;
 }
+
+
+
+/*my style for the logo */
+
+.logo img{
+	height: 70px;
+	float: left;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+
+
 
 form input, form select, form textarea {
 	padding: 5px;
