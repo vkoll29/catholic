@@ -444,9 +444,15 @@ div.slides-container div.jFlowSlideContainer div {
 }
 div.slides-container div.jFlowSlideContainer div.slide-image {
 	float:left;
-	width: 370px;
 	padding-top: 0px;
+	padding-right: 20px;
 }
+
+div.slides-container div.jFlowSlideContainer div.slide-image img {
+	border-radius: 10px;
+}
+
+
 span.jFlowPrev, span.jFlowNext {
 	background-image:url('images/slide-prev.gif');
 	background-repeat:no-repeat;
@@ -495,6 +501,7 @@ p.frontpage-button a {
 	text-shadow:-1px -1px #CE5709;
 	background: #F87B27 url('images/frontpage-link.png') repeat-x scroll top left;
 	border: 1px solid #000;
+	float: right;
 }
 p.frontpage-button a:hover {
 	background: #E5620A none;
@@ -723,4 +730,13 @@ div#footer-links p {
 	color: #eee;
 	font-weight: bold;
 	text-decoration: underline;
+}
+
+/* my custom styles */
+
+.home-gallery img{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 5px;
 }
