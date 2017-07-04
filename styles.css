@@ -740,3 +740,29 @@ div#footer-links p {
 	border-radius: 10px;
 	padding: 5px;
 }
+
+.readmore{
+	background: #008CBA;
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	color: white;
+	font-size: 120%;
+	float: right;
+	webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.readmore:hover{
+	background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.readmore a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.padded-li{
+	padding: 20px 0;
+}
