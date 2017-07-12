@@ -752,7 +752,8 @@ div#footer-links p {
 	float: right;
 	webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
-	cursor: pointer;
+/*	cursor: pointer;
+*/	padding: 5px;
 }
 .readmore:hover{
 	background-color: #4CAF50; /* Green */
