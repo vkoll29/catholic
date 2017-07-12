@@ -766,3 +766,15 @@ div#footer-links p {
 .padded-li{
 	padding: 20px 0;
 }
+
+.stmnt{
+	margin-top: 5px;
+}
+
+.stmnt img{
+	float: left;
+	width: 400px;
+	margin-right: 20px;
+	background: gray;
+	border-radius: 5px; 
+}
