@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Anton|Bellefair|Kaushan+Script|Merriweather|Zilla+Slab|Lora|Montserrat|PT+Sans|Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Anton|Bellefair|Kaushan+Script|Merriweather|Zilla+Slab|Lora|Montserrat|PT+Sans|Roboto|Roboto+Slab|Lobster|Lato');
 
 body {
 	background: #FFF url('images/body-single.png') repeat-x scroll top left;
@@ -832,7 +832,11 @@ div#footer-links p {
 }
 
 .commitments h2{
+    width: 40%;
+    background-color: white;
+    text-align: center;
     margin: auto;
+    border-radius: 50px;
 }
 
 .yfcabt{
@@ -955,6 +959,78 @@ div#footer-links p {
     border-radius: 100px;
     color: white;
     padding: 20px;
+    font-family: 'Lobster';
     font-size: 30px;
     text-align: center;
+}
+
+.jcbox-list{
+    font-size: 18px;
+}
+
+.jcbox-list ul{
+    list-style-type: none
+}
+
+.jcbox-list ul li{
+    background: #C5624B;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.jcbox-list ul li:hover{
+    font-size: 22px;
+    background-color: crimson;
+}
+
+.ld-container{
+    background-color: #C5624B;
+    width: 900px;
+    margin: 20px 10px 10px 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.ld{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.ld h2{
+    width: 40%;
+    margin: auto;
+    background: #C5624B;
+    color: white;
+    text-align: center;
+    font-family: 'Zilla Slab';
+    font-size: 40px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.ld ul{
+    list-style-type: none;
+}
+
+.ld ul li{
+/*    margin: 10px 0;*/
+    border-bottom: 2px solid #C5624B;
+    border-top: 2px solid #C5624B;
+    border-radius: 50px;
+    
+    font-size: 15px;
+    padding: 20px;
+}
+
+.ld ul li:first-child{
+    
 }
