@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Bellefair|Kaushan+Script|Merriweather|Zilla+Slab');
+
 body {
 	background: #FFF url('images/body-single.png') repeat-x scroll top left;
 	
@@ -251,6 +254,13 @@ ul.styledlist li {
 	padding: 0px;
 }
 
+
+
+/*
+.noheader .container{
+    width: 100%;
+}
+*/
 #header {
 	padding: 0px 15px;
 	margin: 0 auto;
@@ -824,3 +834,101 @@ div#footer-links p {
 .commitments h2{
     margin: auto;
 }
+
+.yfcabt{
+    
+    border: 2px solid red;
+    border-radius: 30px;
+/*    height: 400px;*/
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.abth{
+    border-radius: 50px;
+    background-color: crimson;
+    font-size: 50px;
+    font-family: 'Kaushan Script';
+/*    font-style: italic;*/
+    margin: 10px 0;
+    text-align: center;
+    color: aliceblue;
+    width: auto;
+}
+.yfcabt h2{
+    font-family: 'Bellefair';
+    font-size: 40px;
+}
+
+.objmem{
+    background: crimson;
+    background-repeat: repeat-y;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-family: 'Zilla Slab';
+
+}
+
+.objmem ul li{
+    font-size: 18px;
+    padding: 10px;
+    list-style-type: none;
+    border-bottom: 2px solid crimson;
+    
+    
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.objmem ul li:hover{
+    font-size: 20px;
+    background: #f6f6f6;
+}
+
+.obj{
+    padding: 10px;
+    background: white;
+    margin-right: 10px;
+    float: left;
+    width: 60%;
+    overflow: hidden;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+.obj hr{
+/*    color: crimson;*/
+    border-top: 2px solid crimson;
+    border-radius: 10px;
+    display: none;
+}
+
+.mem{
+    padding: 10px;
+    overflow: hidden;
+    border: 2px solid red;
+    background: white;
+    border-radius: 50px;
+
+}
+
+.hdr{
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    border: 5px solid crimson;
+    background: crimson;
+    border-radius: 60px;
+    color: white;
+    padding: 10px 0; 
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.mem .hdr{
+    width: 70%;
+}
+
