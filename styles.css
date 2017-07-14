@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Anton|Bellefair|Kaushan+Script|Merriweather|Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Anton|Bellefair|Kaushan+Script|Merriweather|Zilla+Slab|Lora|Montserrat|PT+Sans|Roboto|Roboto+Slab');
 
 body {
 	background: #FFF url('images/body-single.png') repeat-x scroll top left;
@@ -932,3 +932,29 @@ div#footer-links p {
     width: 70%;
 }
 
+.jcbox-container{
+    background: #C5624B;
+    width: 900px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Lora';
+}
+
+.jcbox{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.jcbox-header{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px;
+    background: #C5624B;
+    border-radius: 100px;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
